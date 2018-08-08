@@ -43,3 +43,5 @@ After that, you just need to deploy functions only
 ```
 firebase deploy --only functions
 ```
+
+If you cannot do it, please "".firebaserc" has to be deleted and "firebase init" need to be run again." - Thanks to [techboycr](https://github.com/dalenguyen/serverless-rest-api/issues/1).
