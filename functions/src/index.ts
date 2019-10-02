@@ -70,3 +70,5 @@ app.delete('/contacts/:contactId', async (req, res) => {
         .deleteDocument(db, contactsCollection, req.params.contactId);
     res.status(204).send(`Contact is deleted: ${deletedContact}`);
 })
+
+export { app };
