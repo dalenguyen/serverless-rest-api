@@ -10,9 +10,9 @@ const db = admin.firestore();
 const app = express();
 const main = express();
 
-main.use('/api/v1', app);
 main.use(bodyParser.json());
 main.use(bodyParser.urlencoded({ extended: false }));
+main.use('/api/v1', app);
 
 const contactsCollection = 'contacts';
 
