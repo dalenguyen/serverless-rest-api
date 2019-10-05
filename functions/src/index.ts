@@ -19,9 +19,9 @@ const contactsCollection = 'contacts';
 export const webApi = functions.https.onRequest(main);
 
 interface Contact {
-    firstName: String
-    lastName: String
-    email: String
+    firstName: string
+    lastName: string
+    email: string
 }
 
 // Add new contact
